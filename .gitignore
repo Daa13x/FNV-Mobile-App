@@ -1,0 +1,32 @@
+# Local secrets / OS artefacts
+.env
+.env.*
+!.env.example
+*.p12
+*.jks
+*.keystore
+*.pem
+*.key
+local.properties
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Android/Gradle
+.gradle/
+**/build/
+**/.idea/
+*.apk
+*.aab
+*.hprof
+
+# Generated runtime state
+*.log
+*.tmp
+*.swp

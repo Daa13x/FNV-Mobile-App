@@ -1,0 +1,19 @@
+{
+  "protocol": 1,
+  "source": "mock",
+  "session": "demo-only",
+  "character": {"name":"Courier","level":12,"hp":245,"maxHp":300,"ap":78,"maxAp":95,"caps":1520,"carryWeight":146,"maxCarryWeight":250,"radiation":12,"location":"Megaton"},
+  "special": {"strength":7,"perception":5,"endurance":8,"charisma":4,"intelligence":7,"agility":6,"luck":5},
+  "inventory": [
+    {"id":"demo-weapon-1","name":"Hunting Rifle","category":"Weapons","count":1,"weight":6.0,"condition":0.83,"equipped":true},
+    {"id":"demo-armor-1","name":"Combat Armor","category":"Apparel","count":1,"weight":25.0,"condition":0.69,"equipped":true},
+    {"id":"demo-aid-1","name":"Stimpak","category":"Aid","count":8,"weight":0.0,"condition":null,"equipped":false},
+    {"id":"demo-ammo-1","name":".308 Round","category":"Ammo","count":68,"weight":0.0,"condition":null,"equipped":false}
+  ],
+  "quests": [{"id":"demo-quest-1","title":"Following in His Footsteps","status":"active","objectives":["Find information about Dad"]}],
+  "map": {"world":"Capital Wasteland","markers":[]},
+  "radio": {"station":null,"playing":false},
+  "companions": [],
+  "survival": {"hunger":null,"thirst":null,"sleep":null},
+  "capabilities": {"inventoryRead":true,"equipmentWrite":false,"questRead":true,"mapRead":false,"radioControl":false}
+}
